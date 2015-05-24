@@ -18,6 +18,6 @@ module.exports = {
     uri:    process.env.MONGOLAB_URI ||
             process.env.MONGOHQ_URL ||
             process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME ||
-            'mongodb://localhost/cdu2015'
+            'mongodb://cdu2015:cdu123@ds037657.mongolab.com:37657/cdu2015'
   }
 };
