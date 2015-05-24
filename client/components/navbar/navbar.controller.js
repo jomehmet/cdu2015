@@ -5,7 +5,10 @@ angular.module('cdu2015App')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
-    }];
+    },{
+        'title': 'Ciberary',
+        'link': '/ciberary'
+      }];
 
     $scope.isCollapsed = true;
     $scope.isLoggedIn = Auth.isLoggedIn;
