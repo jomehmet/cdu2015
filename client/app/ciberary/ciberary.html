@@ -9,8 +9,8 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
-      <h1 class="page-header">Books:</h1>
-      <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="book in books">
+      <h1 class="page-header">Books: </h1>
+      <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="book in books | limit : 2">
         <li class="book"><div ng-class="book.info ? 'borrowed':''">
           <span class="book-title">{{book.name}}</span>
           <span ng-show="book.info"> - Borrowed by {{book.info}}</span>
