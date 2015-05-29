@@ -3,5 +3,8 @@ Description is currently in a google doc.
 
 https://docs.google.com/document/d/1tG6MIhSuJuVlwVlPa1NPK9ND0EFyB4IeSMeEjsmwrKA/edit?usp=sharing
 
-- [] test1
-- [] test2
+- [ ] a task list item
+- [ ] list syntax required
+- [ ] normal **formatting**, @mentions, #1234 refs
+- [ ] incomplete
+- [x] completed
